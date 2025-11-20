@@ -1,0 +1,29 @@
+---
+title: "README"
+author: "Yinuo Zhou"
+date: "2025-11-20"
+output: github_document
+---
+
+## R Package: Counting Missing Data
+#### Introduction
+This repository is for my assignment of STAT 545B in UBC. Using the prebake file provided by my instructors, I created an R package "CountingMissingData" that contains a function that allows the users count the missing values for all columns by groups.
+
+####Installation
+You can install the development version of CountMissingData from GitHub with:
+
+```{r}
+# install.packages("pak")
+pak::pak("stat545ubc-2025/CountMissingData")
+```
+
+####Example
+This is a simple example to demonstrate how you can use this package:
+This example computes the number of missing values in the `airquality` dataset grouped by the `cyl` column. 
+
+```{r} 
+library(CountMissingData)
+library(tidyverse)
+count_all_missing_by_group(airquality, Month)
+```
+
