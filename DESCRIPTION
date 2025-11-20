@@ -1,11 +1,10 @@
 Package: CountMissingData
-Title:  Count the missing values for all columns by groups.
+Title: Count the missing values for all columns by groups.
 Version: 0.0.0.9000
 Authors@R: 
     person("Yinuo", "Zhou", , "ZhouYinuo0907@outlook.com", role = c("aut", "cre"))
 Description: This is for my assignment of STAT 545B in UBC. Using the prebake file provided by my instructors, I created an R package "CountingMissingData" that contains a function that allows the users count the missing values for all columns by groups.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
