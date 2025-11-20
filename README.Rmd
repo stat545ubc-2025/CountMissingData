@@ -13,7 +13,7 @@ This repository is for my assignment of STAT 545B in UBC. Using the prebake file
 You can install the development version of CountMissingData from GitHub with:
 
 ```{r}
-# install.packages("pak")
+# install.packages("CountMissingData")
 pak::pak("stat545ubc-2025/CountMissingData")
 ```
 
