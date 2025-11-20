@@ -9,7 +9,7 @@ output: github_document
 #### Introduction
 This repository is for my assignment of STAT 545B in UBC. Using the prebake file provided by my instructors, I created an R package "CountingMissingData" that contains a function that allows the users count the missing values for all columns by groups.
 
-####Installation
+#### Installation
 You can install the development version of CountMissingData from GitHub with:
 
 ```{r}
@@ -17,7 +17,7 @@ You can install the development version of CountMissingData from GitHub with:
 pak::pak("stat545ubc-2025/CountMissingData")
 ```
 
-####Example
+#### Example
 This is a simple example to demonstrate how you can use this package:
 This example computes the number of missing values in the `airquality` dataset grouped by the `cyl` column. 
 
